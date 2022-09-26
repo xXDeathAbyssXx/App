@@ -1,0 +1,41 @@
+{
+  "name": "reactnative_app_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rollup.config.js",
+  "scripts": {
+    "t": "node jsDelete.js && tsc -w",
+    "n": "nodemon dist/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xXDeathAbyssXx/ReactNativeAppTemplate.git"
+  },
+  "author": "xXDeathAbyssXx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xXDeathAbyssXx/ReactNativeAppTemplate/issues"
+  },
+  "homepage": "https://github.com/xXDeathAbyssXx/ReactNativeAppTemplate#readme",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/express": "^4.17.14",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0",
+    "mongoose": "^5.13.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^14.1.0",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.8.3",
+    "uglify-js": "^3.17.2",
+    "uglifyjs": "^2.4.11",
+    "webpack-cli": "^4.10.0"
+  }
+}
